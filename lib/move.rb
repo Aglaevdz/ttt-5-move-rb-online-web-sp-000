@@ -11,4 +11,3 @@ end
 def move("board", "index", "X")
   puts board(move)
 end
-  
