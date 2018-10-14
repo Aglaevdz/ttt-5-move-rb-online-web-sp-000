@@ -10,5 +10,5 @@ def input_to_index(string)
 end
 def move(board, string, value = "X")
   puts board
-  puts " "X" #{board[0]}"
+  puts " 'X' #{board[0]}"
 end
