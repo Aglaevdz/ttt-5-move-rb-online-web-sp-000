@@ -8,3 +8,7 @@ end
 def input_to_index(string)
   string = string.to_i - 1
 end
+def move(board, string, "X")
+  board(move)
+end
+  
