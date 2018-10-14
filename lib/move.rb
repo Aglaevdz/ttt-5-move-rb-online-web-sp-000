@@ -5,4 +5,4 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-index = gets.to_i - 1
+move = gets.to_i - 1
