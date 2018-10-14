@@ -6,7 +6,7 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index(string)
-  string.to_i - 1
+  string.to_s - 1
 end
 def move(board, string, value = "X")
   puts board[string.to_s] = value
