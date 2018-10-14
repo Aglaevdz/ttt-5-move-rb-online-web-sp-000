@@ -8,4 +8,3 @@ end
 def input_to_index(index)
   index = - 1.to_i
 end
-
