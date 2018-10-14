@@ -5,9 +5,9 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-def input_to_index(string)
-  string.to_s - 1
+def input_to_index(index)
+  index.to_i - 1
 end
-def move(board, string, value = "X")
-  puts board[string.to_s] = value
+def move(board, index, value = "X")
+  puts board[index.to_i] = value
 end
