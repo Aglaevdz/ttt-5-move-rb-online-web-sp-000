@@ -12,4 +12,3 @@ def move(board, index, value = "X")
   puts board[index.to_i] = value
 end
 
-display_board
