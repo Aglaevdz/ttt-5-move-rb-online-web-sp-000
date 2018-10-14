@@ -5,5 +5,5 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-def input_to_index(index)
-input_to_index = 5.to_i
+def input_to_index(input)
+input = 5.to_i
