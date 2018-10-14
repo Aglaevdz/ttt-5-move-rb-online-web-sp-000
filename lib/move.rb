@@ -9,5 +9,5 @@ def input_to_index(string)
   string = string.to_i - 1
 end
 def move(board, string, value = "X")
-  puts board "#{string[0]}"
+  puts board "#{string}"
 end
