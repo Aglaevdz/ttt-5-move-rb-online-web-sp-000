@@ -6,5 +6,5 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 def input_to_index(input)
-  input = 5.to_i
+  input = index.to_i -1
 end
